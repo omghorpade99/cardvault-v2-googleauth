@@ -1,0 +1,13 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/api/notes",
+      "destination": "https://cardvault-v2-server.onrender.com/api/notes"
+    },
+    {
+      "source": "/api/notes/:path*",
+      "destination": "https://cardvault-v2-server.onrender.com/api/notes/:path*"
+    }
+  ]
+}
