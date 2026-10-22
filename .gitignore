@@ -1,0 +1,36 @@
+node_modules
+dist
+dist-server
+.env
+.env.local
+*.log
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+backend/.venv/
+
+# Local tools and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
